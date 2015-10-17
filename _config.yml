@@ -13,9 +13,10 @@ index:
   en: /index_en.html
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://portodimare.bar" # the base hostname & protocol for your site
-twitter_username: portodimare.bar
-instagram_username: portodimare.bar
-facebook_username: portodimare.bar
+twitter_username: portodimarebar
+instagram_username: portodimarebar
+pinterest_username: portodimarebar
+facebook_username: portodimarebar
 google_analytics: "NOT_SET_YET"
 
 # Footer

@@ -7,6 +7,7 @@
 $twitter:        #6dabda;
 $facebook:       #3A5795;
 $instagram:      #517FA4;
+$pinterest:      #D50C22;
 
 $dark:           #361C1C;/*background*/
 $medium:         #703030;/*content panel background*/
@@ -114,6 +115,10 @@ ul {
 
 	.fa-instagram:hover {
 		color: $instagram;
+	}
+
+	.fa-pinterest:hover {
+		color: $pinterest;
 	}
 }
 
