@@ -1,0 +1,6 @@
+<div class="wrapper" style="text-align: right; line-height: 2em">
+  <div class="lang">
+  {% assign pages=site.pages | where:"link", page.link | sort: 'lang' %}
+  {% for page in pages %} <a href="{{ page.url }}"><img class="flag flag-{{ page.lang }}" src="img/transparent.png"></a> {% endfor %}
+  </div>
+</div>

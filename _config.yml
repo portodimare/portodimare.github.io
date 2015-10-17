@@ -1,0 +1,30 @@
+# Site settings
+title: Porto Di Mare
+title_image: "/img/logo.jpg"
+email: your-email@domain.com
+title_description:
+  it: italiano
+  en: english
+description:
+  en: Write an awesome description for your new site in english here.
+  it: Write an awesome description for your new site in italian here.
+index:
+  it: /
+  en: /index_en.html
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://portodimare.bar" # the base hostname & protocol for your site
+twitter_username: portodimare.bar
+instagram_username: portodimare.bar
+facebook_username: portodimare.bar
+google_analytics: "NOT_SET_YET"
+
+# Footer
+footer_left: ""
+footer_right: ""
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
