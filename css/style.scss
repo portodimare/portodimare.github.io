@@ -252,3 +252,16 @@ ul {
 		background-position: -32px 0;
 	}
 }
+
+.gallery {
+	.main-header {
+		margin-bottom: 20px;
+	}
+}
+.my-gallery {
+	overflow: auto;
+}
+.gallery-item {
+	width: 25%;
+  float: left;
+}
