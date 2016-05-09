@@ -1,7 +1,7 @@
 
 <div class="container-fluid index">
     <div class="row">
-        <div class="col-md-12 main content-panel">
+        <div class="col-md-12 main content-panel main-content-panel">
             <div class="gravatar">
                 <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
             </div>
@@ -9,7 +9,14 @@
             <div class="main-copy">
                 {{ site.description[page.lang] }}
             </div>
-            {% include social_links.html %}
+            {% include social_links.html class="desktop-social-links"%}
           </div>
     </div>
+
+    <div class="row mobile-social-links-container">
+      <div class="col-md-4 col-md-offset-4 content-panel">
+        {% include social_links.html class="mobile-social-links" %}
+      </div>
+    </div>
+
 </div>

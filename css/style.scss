@@ -77,13 +77,32 @@ ul {
 
 .content-panel {
 	background-color: $background-color;
+	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
+	border-bottom: 5px solid $light-blue;
+}
+
+.main-content-panel {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-top: 20px;
-	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-blue;
+}
+
+.index .row.mobile-social-links-container {
+	margin-top: 0;
+}
+
+.mobile-social-links, .mobile-social-links-container {
+	@media(min-width: $screen-sm-min ) {
+		display: none;
+	}
+}
+
+.desktop-social-links {
+	@media(max-width: $screen-sm-min) {
+		display: none;
+	}
 }
 
 .links {
