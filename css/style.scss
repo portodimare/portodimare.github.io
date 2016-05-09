@@ -4,18 +4,14 @@
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 
 /* Colours */
-$twitter:        #6dabda;
-$facebook:       #3A5795;
-$instagram:      #517FA4;
-$pinterest:      #D50C22;
-$googlemaps:     #F90101;
 
-$dark:           #361C1C;/*background*/
-$medium:         #703030;/*content panel background*/
-$dark-blue:      #215A6D;
-$light-blue:     #E43737;/*title*/
-$light-medium:   #969696;
-$white:          #FFFFFF;
+$dark:           		#361C1C;/*background*/
+$background-color:	#F0F0E0;/*content panel background*/
+$dark-blue:      		#215A6D;
+$light-blue:     		#703030;/*title*/
+$main-copy:     		#703030;
+$light-medium:   		#969696;
+$white:          		#FFFFFF;
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -32,11 +28,15 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	background-color: $dark;
 	color: $white;
 	font-size: 16px;
 	height: 100%;
-	width: 100%
+	width: 100%;
+	background: url("https://c1.staticflickr.com/5/4058/4250702159_d2d4746fdd_o.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 a, a:active {
@@ -76,7 +76,7 @@ ul {
 }
 
 .content-panel {
-	background-color: $medium;
+	background-color: $background-color;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
@@ -104,26 +104,7 @@ ul {
 		-webkit-transition: 0.3s;
 		-moz-transition: 0.3s;
 		transition: 0.3s;
-	}
-
-	.fa-twitter:hover {
-		color: $twitter;
-	}
-
-	.fa-facebook:hover {
-		color: $facebook;
-	}
-
-	.fa-instagram:hover {
-		color: $instagram;
-	}
-
-	.fa-pinterest:hover {
-		color: $pinterest;
-	}
-
-	.fa-map-marker:hover {
-		color: $googlemaps
+		color: #E43737;
 	}
 }
 
@@ -157,7 +138,7 @@ ul {
 		border-bottom: 10px solid $light-blue;
 	}
 
-	.author-header {
+	.main-header {
 		font-family: 'Abril Fat Face';
 		color: $light-blue;
 		margin-top: 0px;
@@ -189,9 +170,10 @@ ul {
 		text-align: center;
 	}
 
-	.author-text {
+	.main-copy {
 		text-align: center;
 		margin-top: 30px;
+		color: $main-copy;
 	}
 
 	.links {
