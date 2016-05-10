@@ -1,14 +1,15 @@
 # Site settings
-title: Porto Di Mare
+title: Caffetteria Porto di Mare
 title_image: "/img/logo-min.jpg"
-email: your-email@domain.com
 meta_description:
-  it: italiano
-  en: english
+  it: Situato nel cuore del centro storico, nei pressi del Castello Svevo e a due passi dalla cattedrale, la Caffetteria Porto di Mare è il luogo ideale per rilassarsi e gustare un ottimo caffè.
+  en: Situated in the heart of the historical centre, near Castello Svevo and a few steps away from the Cathedral, the Caffetteria Porto di Mare is the ideal place to relax and enjoy a delicious coffee.
 description:
-  en: Write an awesome description for your new site in english here.
+  en: >
+      Situated in the heart of the historical centre, near Castello Svevo and a few steps away from the Cathedral, the Caffetteria Porto di Mare is the ideal place to relax and enjoy a delicious coffee.
+      <br>Join us and taste our aperitivi and pastries inspired local seasonal flavours.
   it: >
-      Situato nel cuore del centro storico, nei pressi del Castello Svevo e a due passi dalla cattedrale, la Caffetteria Porto di Mare e’ il luogo ideale per rilassarsi e gustare un ottimo caffe’.
+      Situato nel cuore del centro storico, nei pressi del Castello Svevo e a due passi dalla cattedrale, la Caffetteria Porto di Mare è il luogo ideale per rilassarsi e gustare un ottimo caffè.
       <br>Vieni a trovarci e assapora i nostri aperitivi e dolci ispirati dai sapori locali e di stagione.
 galleryh1:
   en: Gallery
