@@ -5,11 +5,7 @@
 <meta name="description" content="{{ site.meta_description[page.lang] }}">
 
 {% include twitter_card.html %}
-
-<!-- Favicons generated at http://realfavicongenerator.net/ -->
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}/favicons/mstile-144x144.png">
-<meta name="msapplication-config" content="{{ site.baseurl }}/favicons/browserconfig.xml">
+{% include open_graph_data.html %}
 <meta name="theme-color" content="#ffffff">
 
 {% if site.addthis_id %}
