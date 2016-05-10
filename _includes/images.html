@@ -6,24 +6,10 @@
 
           <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
-            {% include image.html bigimage='https://placekitten.com/601/402'
-            thumbnail='https://placekitten.com/100/100' alt='Image description' %}
+            {% include image.html bigimage='/img/gallery/photo1.jpg' datasize='900x1600'
+            thumbnail='/img/gallery/photo1_tn.jpg' alt='Image description' %}
+            {% include image.html bigimage='/img/gallery/photo2.jpg' datasize='1200x1600'
+            thumbnail='/img/gallery/photo2_tn.jpg' alt='Image description' %}
           </div>
 
 
@@ -136,6 +122,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                 h: parseInt(size[1], 10)
             };
 
+            console.log(item);
 
 
             if(figureEl.children.length > 1) {
