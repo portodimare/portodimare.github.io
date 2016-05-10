@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://portodimare.bar" # the base hostname & protocol for your site
 twitter_username: portodimarebar
 instagram_username: portodimarebar
-pinterest_username: portodimarebar
+#pinterest_username: portodimarebar
 facebook_username: portodimarebar
 google_maps_location: 41.2814733,16.4162785,19z
 google_analytics: "NOT_SET_YET"
