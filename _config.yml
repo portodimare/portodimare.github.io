@@ -8,9 +8,15 @@ meta_description:
 description:
   en: Write an awesome description for your new site in english here.
   it: Write an awesome description for your new site in italian here.
+galleryh1:
+  en: Gallery
+  it: Galleria
 index:
   it: /
   en: /index_en.html
+images:
+  it: /images
+  en: /images_en.html
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://portodimare.bar" # the base hostname & protocol for your site
 twitter_username: portodimarebar
